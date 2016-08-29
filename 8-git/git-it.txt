@@ -2,17 +2,26 @@
 # Type your answers on a new line.
 
 # Type the command for creating a new local git repository in the current directory
+git init
 
 # Type the command for viewing a log of all commits in the current branch
+git log
 
 # Type the command for creating a new branch called newstuff in the current repository
+git branch newstuff
 
 # Type the command for checking out the branch newstuff
+git checkout newstuff
 
 # Type the command for adding all files to the staging area
+git add .
 
 # Type the command for committing all staged files with a message that says "I have made some updates"
+git commit -m "I have made some updates"
 
 # Type the command for pushing all commits on the current branch to a the master branch in a remote repo nicknamed origin
+git push origin master
 
 # Type the command for getting updates from the master branch on origin
+git fetch (#This command gets the updates but doesn't try to merge them)
+git pull (#This command gets the updates and tries to merge them)
